@@ -1,16 +1,9 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: The Shambles
+tagline: York's Premier Improv Troupe
 ---
 {% include JB/setup %}
-
-Theme {{page.theme.name}}
-Does test work? {{page.test}}
-
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
-
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
 ## Update Author Attributes
 
