@@ -1,11 +1,11 @@
 ---
 layout: page
-title: About
+title: About Us
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Formed in 2007 at the University of York, The Shambles originated as a short form improvisational comedy troupe called "The Scabs". Over the years, their reputation evolved (as well as their name) and they have become one of the most loved improv troupes at the Edinburgh Fringe.
 
-You can find the source code for the Jekyll new theme at:
+They perform a range of songs, scenes and games based entirely on your suggestions. Performing throughout the entire Fringe and regularly around York, there's always a chance to catch the fast whit of The Shambles.
 
-You can find the source code for Jekyll at
+Also, they're called The Shambles after <a href="https://en.wikipedia.org/wiki/The_Shambles">this famous road in York.</a> Not because they are bad.
