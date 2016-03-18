@@ -27,6 +27,9 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$ShamblesRed:      #f1233a;
+$ShamblesBlack:    #2e2e2e;
+
 
 
 // Use media queries like this:
@@ -50,6 +53,12 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+@font-face {
+    font-family: 'CooperBlack';
+    src: url('/fonts/COOPBL.TTF');
+}
+
 .navbar-brand
 {
     position: absolute;
@@ -60,3 +69,6 @@ $on-laptop:        800px;
     margin: auto;
 }
 
+.cooper {
+    font-family: 'CooperBlack';
+}
