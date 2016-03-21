@@ -27,9 +27,6 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-$ShamblesRed:      #f1233a;
-$ShamblesBlack:    #2e2e2e;
-
 
 
 // Use media queries like this:
@@ -47,6 +44,7 @@ $ShamblesBlack:    #2e2e2e;
 
 
 
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
@@ -59,8 +57,36 @@ $ShamblesBlack:    #2e2e2e;
     src: url('/fonts/COOPBL.TTF');
 }
 
-.navbar-brand
-{
+$shambles-red:    #f1233a;
+$shambles-black:  #2e2e2e;
+$light-grey:      #333333;
+
+.body {
+    background-color: $shambles-black;
+}
+
+.navbar-custom {
+    background-color: $shambles-black;
+    color: #000000;
+    border-radius: 0;
+}
+
+.navbar-custom .navbar-nav{
+    background-color: $shambles-black;
+    min-height: 130px;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+    background-color: $shambles-black;
+    color: $shambles-red;
+}
+
+.navbar-custom .navbar-brand {
     position: absolute;
     width: 100%;
     left: 0;
@@ -69,6 +95,11 @@ $ShamblesBlack:    #2e2e2e;
     margin: auto;
 }
 
+.navbar-toggle {
+    background-color: $light-grey;
+}
+
 .cooper {
     font-family: 'CooperBlack';
+    color: $shambles-red;
 }
