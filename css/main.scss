@@ -78,6 +78,7 @@ $light-grey:      #333333;
 
 .navbar-custom .navbar-nav > li > a {
     color: white;
+    font-size: 200%;
 }
 
 .navbar-custom .navbar-nav > li > a:hover,
@@ -90,13 +91,15 @@ $light-grey:      #333333;
     position: absolute;
     width: 100%;
     left: 0;
-    top: 0;
+    top: -35%;
     text-align: center;
     margin: auto;
+
+    color:white;
 }
 
 .navbar-toggle {
-    background-color: $light-grey;
+    color: $shambles-red;
 }
 
 .cooper {
