@@ -1,8 +1,8 @@
-- icon: "<i class=\"fa fa-facebook-square\"></i>"
+- icon: "<i class=\"fa fa-facebook-square\" title=\"Facebook\"></i>"
   url: "http://www.facebook.com/TheShamblesImprov"
 
-- icon: "<i class=\"fa fa-twitter-square\"></i>"
+- icon: "<i class=\"fa fa-twitter-square\" title=\"Twitter\"></i>"
   url: "http://twitter.com/shamblesimprov"
 
-- icon: "<i class=\"fa fa-vine\"></i>"
+- icon: "<i class=\"fa fa-vine\" title=\"Vine\"></i>"
   url: "https://vine.co/u/1200169642719645696"
