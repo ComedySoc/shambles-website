@@ -1,0 +1,39 @@
+---
+layout: page
+title: Meet Us
+permalink: /meet/
+---
+
+{% assign current-shambles = (site.data.shambles | where:"left", "false") %}
+{% assign shamblumni = (site.data.shambles | where:"left", "true") %}
+
+<h3>Current Shambles</h3>
+{% for shamble in current-shambles %}
+    {% assign mod = forloop.index0 | modulo:3 %}
+    {% if mod == 0 %}
+        {% comment %}
+            This is executed when we need a new row
+        {% endcomment %}
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+    {% endif %}
+    <div class="col-md-3">
+        <div class="shamble-photobox">
+            {% if shamble.photo %}
+                <img src="{{ site.github.url }}/img/shambles/{{ shamble.photo }}"
+                alt="Photo of {{ shamble.name }}"/>
+            {% else %}
+                <img src="{{ site.github.url }}/img/shambles/unknown.svg"
+                alt="No photo of {{ shamble.name }}"/>
+            {% endif %}
+            {{shamble.name}}
+        </div>
+    </div>
+{% endfor %}
+        </div>
+
+Shamblumni
+{% for shamble in shamblumni %}
+    {{shamble.name}}
+{% endfor %}
