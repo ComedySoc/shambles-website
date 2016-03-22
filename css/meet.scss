@@ -1,0 +1,31 @@
+---
+---
+@charset "utf-8";
+@import "variables";
+
+.shamble-photobox {
+    background: rgba(0,0,0,0.2);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.shamble-photobox p {
+    text-align: center; 
+    font-family: "CooperBlack";
+    color: $shambles-black;
+}
+
+.shamblumni {
+    column-count :5;
+    -moz-column-count: 5;
+    -webkit-column-count: 5;
+
+    column-rule: 1px solid $shambles-black;
+    -moz-column-rule: 1px solid $shambles-black;
+    -webkit-column-rule: 1px solid $shambles-black;
+}
+
+.shamblumni-name {
+    font-family: "CooperBlack";
+    color: $shambles-black;
+}
