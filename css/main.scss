@@ -45,25 +45,14 @@ $on-laptop:        800px;
 
 
 
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "variables"
 ;
-
-@font-face {
-    font-family: 'CooperBlack';
-    src: url('COOPBL.TTF');
-}
-
-$shambles-red:    #f1233a;
-$shambles-black:  #2e2e2e;
-$light-grey:      #333333;
-
-.body {
-    background-color: $shambles-black;
-}
 
 .navbar-custom {
     background-color: $shambles-black;
@@ -105,4 +94,11 @@ $light-grey:      #333333;
 .cooper {
     font-family: 'CooperBlack';
     color: $shambles-red;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
