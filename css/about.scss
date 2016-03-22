@@ -1,0 +1,23 @@
+---
+---
+@charset "utf-8";
+@import "variables";
+
+body {
+    background: url("/img/bg-3.jpg") no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.page-content {
+    font-family: "CooperBlack";
+    color: white;
+}
+
+article {
+    background: rgba(0,0,0,0.7);
+    border-radius: 25px;
+    padding: 20px;
+}
