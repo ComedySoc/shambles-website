@@ -3,41 +3,12 @@
 @charset "utf-8";
 @import "variables";
 
-$on-palm:          600px;
-$on-laptop:        800px;
-
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
-html {
+body {
     background: url("/img/bg-1.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-body {
-}
-
-.page-content {
-    background-color: rgba(239, 42, 65,0.2) !important;
-    top: 133px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: absolute;
-    width: auto;
-    height: auto;
-}
-
-@include media-query($on-palm) {
-    .page-content {
-        top: 146px;
-    }
 }
 
 #title {
