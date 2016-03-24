@@ -1,1 +1,1 @@
-The website for The Shambles built with Jekyll Bootstrap
+The website for The Shambles built with Jekyll and Bootstrap
