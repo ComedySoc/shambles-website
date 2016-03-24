@@ -13,6 +13,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 author: Qumarth Jash
 author_website: http://qumarth.me
+designer: Ed Williams
+designer_website: http://twitter.com/Edface
 
 # Build settings
 markdown: kramdown
