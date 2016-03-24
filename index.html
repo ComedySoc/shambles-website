@@ -3,33 +3,33 @@ layout: default
 css: index.css
 ---
 <div class="container-fluid">
-    <div class="row">
-	<div class="col-md-6 col-md-offset-3 col-xs-12">
-	    <h1 id="title" class="cooper">The Shambles</h1>
-	</div>
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3 col-xs-12">
+      <h1 id="title" class="cooper">The Shambles</h1>
     </div>
+  </div>
 
-    <div class="row">
-	<div class="col-md-6 col-md-offset-4 col-xs-12">
-	    <h3 class="subtitle">York's Premier Improv Troupe</h3>
-	</div>
+  <div class="row">
+    <div class="col-md-6 col-md-offset-4 col-xs-12">
+      <h3 class="subtitle">York's Premier Improv Troupe</h3>
     </div>
+  </div>
 
-    <div class="row">
+  <div class="row">
 	{% for review in site.data.reviews %}
-	    <div class="col-md-4 col-xs-12">
-		<a href="{{ review.link }}">
-		{%if review.number_of_stars%}
-		    <h4>
-		    {%for i in (1..review.number_of_stars)%}
+    <div class="col-md-4 col-xs-12">
+      <a href="{{ review.link }}">
+      {%if review.number_of_stars%}
+      <h4>
+      {%for i in (1..review.number_of_stars)%}
 			<i class="fa fa-star cooper"></i>
-		    {% endfor %}
-		    </h4>
+      {% endfor %}
+      </h4>
 		{% endif %}
-		<h5 class="subtitle">"{{ review.quote }}"</h5>
-		<h5 class="subtitle"> - {{ review.reviewer_name }}</h5>
-		</a>
-	    </div>
-	{%endfor%}
+        <h5 class="subtitle">"{{ review.quote }}"</h5>
+        <h5 class="subtitle"> - {{ review.reviewer_name }}</h5>
+      </a>
     </div>
+	{%endfor%}
+  </div>
 </div>

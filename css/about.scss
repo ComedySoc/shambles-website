@@ -4,20 +4,20 @@
 @import "variables";
 
 body {
-    background: url("about-bg.jpg") no-repeat fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background: url("about-bg.jpg") no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .page-content {
-    font-family: "CooperBlack";
-    color: white;
+  font-family: "CooperBlack";
+  color: white;
 }
 
 article {
-    background: rgba(0,0,0,0.7);
-    border-radius: 25px;
-    padding: 20px;
+  background: rgba(0,0,0,0.7);
+  border-radius: 25px;
+  padding: 20px;
 }

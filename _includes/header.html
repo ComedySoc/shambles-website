@@ -1,38 +1,38 @@
 <nav class="navbar navbar-custom">
   <div class="container-fluid">
-	<div class="navbar-header">
-	  <a href="{{ site.github.url }}/" class="navbar-brand navbar-center">
-	    <img
-	      class="cooper"
-	      src="{{ site.github.url }}/img/logo.png"
-	      srcset="{{ site.github.url }}/img/logo.svg"
-	      alt="The Shambles"
-	      height="500%"
-	      width="500%"/>
-	  </a>
-	  <button type="button" class="navbar-toggle"
-	    data-toggle = "collapse" data-target = ".navbar-collapse">
-	    <span class = "sr-only">Toggle navigation</span>
-	    <i class="fa fa-bars fa-2x"></i>
-	  </button>
-	</div>
+    <div class="navbar-header">
+      <a href="{{ site.github.url }}/" class="navbar-brand navbar-center">
+	<img
+	  class="cooper"
+	  src="{{ site.github.url }}/img/logo.png"
+	  srcset="{{ site.github.url }}/img/logo.svg"
+	  alt="The Shambles"
+	  height="500%"
+	  width="500%"/>
+      </a>
+      <button type="button" class="navbar-toggle"
+	data-toggle = "collapse" data-target = ".navbar-collapse">
+	<span class = "sr-only">Toggle navigation</span>
+	<i class="fa fa-bars fa-2x"></i>
+      </button>
+    </div>
 
-	<div class="collapse navbar-collapse">
-	  <ul class="nav navbar-nav">
-	    {% for my_page in site.pages %}
-	      {% if my_page.title %}
-		 <li><a class="page-link cooper" href="{{ my_page.url | prepend: site.github.url }}">{{ my_page.title }}</a></li>
-	      {% endif %}
-	    {% endfor %}
-	  </ul>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+	{% for my_page in site.pages %}
+	  {% if my_page.title %}
+	     <li><a class="page-link cooper" href="{{ my_page.url | prepend: site.github.url }}">{{ my_page.title }}</a></li>
+	  {% endif %}
+	{% endfor %}
+      </ul>
 
-	  <ul class="nav navbar-nav navbar-right">
-	    {% for account in site.data.social %}
-	      {% if account.icon %}
-		<li><a class="page-link" href="{{account.url}}">{{account.icon}}</a></li>
-	      {% endif %}
-	    {% endfor%}
-	  </ul>
-	</div>
+      <ul class="nav navbar-nav navbar-right">
+	{% for account in site.data.social %}
+	  {% if account.icon %}
+	    <li><a class="page-link" href="{{account.url}}">{{account.icon}}</a></li>
+	  {% endif %}
+	{% endfor%}
+      </ul>
+    </div>
   </div>
 </nav>

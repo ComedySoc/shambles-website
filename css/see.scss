@@ -4,38 +4,38 @@
 @import "variables";
 
 body {
-    background: url("see-bg.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background: url("see-bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .subtitle {
-    text-align: center;
+  text-align: center;
 }
 
 .page-content {
-    font-family: "CooperBlack";
-    color: white;
+  font-family: "CooperBlack";
+  color: white;
 }
 
 article {
-    background: rgba(0,0,0,0.7);
-    border-radius: 25px;
-    padding: 20px;
+  background: rgba(0,0,0,0.7);
+  border-radius: 25px;
+  padding: 20px;
 }
 
 #google-map {
-    position: relative;
-    padding-bottom: 75%;
-    height: 0;
-    overflow: hidden;
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
 }
 #google-map iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
 }

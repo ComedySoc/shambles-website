@@ -9,46 +9,46 @@ css: meet.css
 {% assign shamblumni = (site.data.shambles | where:"left", "true") %}
 
 <div class="row">
-    <div class="col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-3">
-        <h2 class="cooper">Current Shambles</h2>
-    </div>
+  <div class="col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-3">
+    <h2 class="cooper">Current Shambles</h2>
+  </div>
 </div>
 
 {% for shamble in current-shambles %}
-    {% assign mod = forloop.index0 | modulo:3 %}
-    {% if mod == 0 %}
-        {% comment %}
-            This is executed when we need a new row
-        {% endcomment %}
-        <div class="row">
-            <div class="col-md-1"></div>
-    {% endif %}
-    <div class="col-md-3 col-xs-4">
-        <div class="shamble-photobox">
-            {% if shamble.photo %}
-                <img src="{{ site.github.url }}/img/shambles/{{ shamble.photo }}"
-                alt="Photo of {{ shamble.name }}"/>
-            {% else %}
-                <img src="{{ site.github.url }}/img/shambles/unknown.svg"
-                alt="No photo of {{ shamble.name }}"/>
-            {% endif %}
-            <p>{{shamble.name}}</p>
-        </div>
-    </div>
+  {% assign mod = forloop.index0 | modulo:3 %}
+  {% if mod == 0 %}
+  {% comment %}
+  This is executed when we need a new row
+  {% endcomment %}
+<div class="row">
+  <div class="col-md-1"></div>
+  {% endif %}
+  <div class="col-md-3 col-xs-4">
+    <div class="shamble-photobox">
+      {% if shamble.photo %}
+      <img src="{{ site.github.url }}/img/shambles/{{ shamble.photo }}"
+           alt="Photo of {{ shamble.name }}"/>
+      {% else %}
+      <img src="{{ site.github.url }}/img/shambles/unknown.svg"
+           alt="No photo of {{ shamble.name }}"/>
+      {% endif %}
+      <p>{{shamble.name}}</p>
+  </div>
+</div>
 
-    {% if mod == 2 %}
-            </div>
-            </br>
-    {% endif %}
+  {% if mod == 2 %}
+    </div>
+    </br>
+  {% endif %}
 {% endfor %}
 
 <div class="row">
-    <div class="col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-4">
-        <h3 class="cooper">Shamblumni</h3>
-    </div>
+  <div class="col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-4">
+    <h3 class="cooper">Shamblumni</h3>
+  </div>
 </div>
 <div class="shamblumni">
-    {% for shamble in shamblumni %}
-        <p class="shamblumni-name">{{shamble.name}}</p>
-    {% endfor %}
+  {% for shamble in shamblumni %}
+    <p class="shamblumni-name">{{shamble.name}}</p>
+  {% endfor %}
 </div>

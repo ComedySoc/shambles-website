@@ -5,33 +5,33 @@ permalink: /see/
 css: see.css
 ---
 <div class="container">
-    <h3 class="cooper subtitle">In Edinburgh</h3>
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            Every year, we perform throughout the Edinburgh Fringe, bringing to you a fun night with a plethora of comedy. This year we'll be at <span class="cooper">{{ site.data.fringe.location }}</span> (map below).
+  <h3 class="cooper subtitle">In Edinburgh</h3>
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      Every year, we perform throughout the Edinburgh Fringe, bringing to you a fun night with a plethora of comedy. This year we'll be at <span class="cooper">{{ site.data.fringe.location }}</span> (map below).
 
-            {% if site.data.fringe.ticket_link %}
-                <h4 class="cooper">Tickets are available <a href="{{ site.data.ticket_link }}">here.</a></h4>
-            {% else %}
-                <h4 class="cooper">Tickets to go on sale soon!</h4>
-            {% endif %}
+    {% if site.data.fringe.ticket_link %}
+    <h4 class="cooper">Tickets are available <a href="{{ site.data.ticket_link }}">here.</a></h4>
+    {% else %}
+    <h4 class="cooper">Tickets to go on sale soon!</h4>
+    {% endif %}
 
-            </br>
-        </div>
+    </br>
     </div>
+  </div>
 
-    <div class="row">
-        <div id="google-map" class="col-md-11 col-xs-12">
-            {{ site.data.fringe.map }}
-        </div>
+  <div class="row">
+    <div id="google-map" class="col-md-11 col-xs-12">
+      {{ site.data.fringe.map }}
     </div>
+  </div>
 
-    <br>
+  <br>
 
-    <h3 class="cooper subtitle">In York</h3>
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            We perform regularly in York throughout the year in various locations. To see where we are next performing, please check out our social media pages.
-        </div>
+  <h3 class="cooper subtitle">In York</h3>
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      We perform regularly in York throughout the year in various locations. To see where we are next performing, please check out our social media pages.
     </div>
+  </div>
 </div>
