@@ -12,6 +12,7 @@ img {
 }
 
 .navbar-custom {
+    position: relative;
     background-color: $shambles-black;
     color: #000000;
     border-radius: 0;
@@ -35,11 +36,9 @@ img {
 
 .navbar-custom .navbar-brand {
     position: absolute;
-    width: 100%;
-    left: 0;
-    top: -35%;
-    text-align: center;
-    margin: auto;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+    top: -40px;
 
     color:white;
 }

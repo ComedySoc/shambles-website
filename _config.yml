@@ -12,9 +12,11 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 author: Qumarth Jash
-author_website: http://qumarth.me
+author_website: http://qumarth.uk
 designer: Ed Williams
 designer_website: http://twitter.com/Edface
+photographer: Harry Elletson
+photographer_website: http://hlhelletson.wixsite.com/portfolio
 
 # Build settings
 markdown: kramdown

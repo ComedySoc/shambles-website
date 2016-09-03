@@ -1,3 +1,15 @@
+- name: Annis Stead
+  left: no
+
+- name: Rosalie Gardner
+  left: no
+
+- name: Stephen Harper
+  left: no
+
+- name: Alex Rushfirth
+  left: no
+
 - name: Matthew Stallworthy
   left: no
 
@@ -8,7 +20,7 @@
   left: no
 
 - name: Ed Williams
-  left: no
+  left: yes
 
 - name: James Gamblin
   left: no
@@ -20,7 +32,7 @@
   left: no
 
 - name: Ben Pearson
-  left: no
+  left: yes
 
 - name: James Haikney
   left: no
@@ -35,10 +47,10 @@
   left: no
 
 - name: Andy Watts
-  left: no
+  left: yes
 
 - name: Dom Ehlert
-  left: no
+  left: yes
 
 - name: Marcus Crabb
   left: no
