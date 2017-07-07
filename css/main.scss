@@ -11,6 +11,10 @@ img {
     vertical-align: middle;
 }
 
+.navbar {
+    position: relative;
+}
+
 .navbar-custom {
     position: relative;
     background-color: $shambles-black;
@@ -35,12 +39,10 @@ img {
 }
 
 .navbar-custom .navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 45px;
     position: absolute;
-    margin-left: -50px !important;  /* 50% of your logo width */
-    display: block;
-    top: -40px;
-
-    color:white;
 }
 
 .navbar-toggle {
