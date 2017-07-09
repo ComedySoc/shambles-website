@@ -20,3 +20,14 @@ photographer_website: http://hlhelletson.wixsite.com/portfolio
 
 # Build settings
 markdown: kramdown
+
+prose:
+  siteurl: 'http://shamblesimprov.co.uk'
+  media: 'img'
+  ignore: ['_config.yml',
+           '_sass',
+           'CNAME',
+           '.gitignore',
+           'css',
+           'font-awesome',
+           'bootstrap']
