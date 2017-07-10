@@ -21,6 +21,9 @@ photographer_website: http://hlhelletson.wixsite.com/portfolio
 # Build settings
 markdown: kramdown
 
+plugins:
+  - jekyll-sitemap
+
 prose:
   siteurl: 'http://shamblesimprov.co.uk'
   media: 'img'
