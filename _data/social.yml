@@ -4,8 +4,8 @@
 - icon: "<i class=\"fa fa-twitter-square\" title=\"Twitter\"></i>"
   url: "http://twitter.com/shamblesimprov"
 
-- icon: "<i class=\"fa fa-vine\" title=\"Vine\"></i>"
-  url: "https://vine.co/u/1200169642719645696"
+- icon: "<i class=\"fa fa-instagram\" aria-hidden=\"true\"></i>"
+  url: "https://www.instagram.com/shamblesimprov/"
 
 - icon: "<i class=\"fa fa-television\" title=\"YSTV\"></i>"
   url: "https://ystv.co.uk/watch/comedysoc/shambles/"
