@@ -11,13 +11,13 @@
   left: no
 
 - name: Annis Stead
-  left: no
+  left: yes
 
 - name: Rosalie Gardner
   left: no
 
 - name: Stephen Harper
-  left: no
+  left: yes
 
 - name: Alex Rushfirth
   left: no
@@ -41,7 +41,7 @@
   left: no
 
 - name: Lewis Crook
-  left: no
+  left: yes
 
 - name: Ben Pearson
   left: yes
@@ -65,7 +65,7 @@
   left: yes
 
 - name: Marcus Crabb
-  left: no
+  left: yes
 
 - name: Hannah Radley
   left: no
@@ -77,13 +77,13 @@
   left: no
 
 - name: Charles Deane
-  left: no
+  left: yes
 
 - name: Andy Blackwell
   left: no
 
 - name: Joshua Turner
-  left: no
+  left: yes
 
 - name: Georgina Newman
   left: no
