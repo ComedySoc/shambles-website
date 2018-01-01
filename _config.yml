@@ -8,9 +8,16 @@
 # Site settings
 title: The Shambles
 description: > # this means to ignore newlines until "baseurl:"
-  The Shambles are York's premier improv troupe, we do a variety of songs, scenes and games based completley on your own suggestions!
+ The Shambles are York's premier improv troupe, we do a variety of songs, scenes and games based completley on your own suggestions!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+defaults:
+  - scope:
+      path: "img"
+    values:
+      image: true
+
 author: Qumarth Jash
 author_website: http://qumarth.uk
 designer: Ed Williams

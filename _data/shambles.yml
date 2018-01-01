@@ -1,19 +1,39 @@
 - name: George Blackman
   left: no
-
-- name: Dominic Gould
-  left: no
+  photo: george.png
 
 - name: Claire Geller
   left: no
+  photo: clare.png
 
 - name: Ollie Jones
   left: no
+  photo: ollie.png
+
+- name: Rosalie Gardner
+  left: no
+  photo: ros.png
+
+- name: Qumarth Jash
+  left: no
+  photo: q.png
+
+- name: Zack Sizer
+  left: no
+  photo: zack.png
+
+- name: Andy Blackwell
+  left: no
+  photo: andy.png
+
+- name: Georgina Newman
+  left: no
+  photo: georgina.png
 
 - name: Annis Stead
   left: yes
 
-- name: Rosalie Gardner
+- name: Dominic Gould
   left: no
 
 - name: Stephen Harper
@@ -37,9 +57,6 @@
 - name: James Gamblin
   left: yes
 
-- name: Qumarth Jash
-  left: no
-
 - name: Lewis Crook
   left: yes
 
@@ -51,9 +68,6 @@
 
 - name: Charlotte Vinsen
   left: yes
-
-- name: Zack Sizer
-  left: no
 
 - name: Kate Weedy
   left: no
@@ -79,14 +93,8 @@
 - name: Charles Deane
   left: yes
 
-- name: Andy Blackwell
-  left: no
-
 - name: Joshua Turner
   left: yes
-
-- name: Georgina Newman
-  left: no
 
 - name: Ali Woods
   left: yes
