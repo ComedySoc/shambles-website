@@ -8,10 +8,12 @@ css: see.css
   <h3 class="cooper subtitle">In Edinburgh</h3>
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
-      Every year, we perform throughout the Edinburgh Fringe, bringing to you a fun night with a plethora of comedy. This year we'll be at <span class="cooper">{{ site.data.fringe.location }}</span> (map below).
+      Every year, we perform throughout the Edinburgh Fringe, bringing to you a
+      fun night with a plethora of comedy. This year we'll be at <span
+        class="cooper">{{ site.data.fringe.location }}</span> (map below).
 
     {% if site.data.fringe.ticket_link %}
-    <h4 class="cooper">Tickets are available <a href="{{ site.data.ticket_link }}">here.</a></h4>
+    <h4 class="cooper">Tickets are available <a href="{{ site.data.fringe.ticket_link }}">here.</a></h4>
     {% else %}
     <h4 class="cooper">Tickets to go on sale soon!</h4>
     {% endif %}
@@ -31,7 +33,18 @@ css: see.css
   <h3 class="cooper subtitle">In York</h3>
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
-      We perform regularly in York throughout the year in various locations. To see where we are next performing, please check out our social media pages.
+
+      {% if site.data.gyf.location %}
+      This summer, we will be making our debut at the Great Yorkshire Fringe!
+      We'll be performing at {{ site.data.gyf.location }}.
+
+      {% if site.data.gyf.ticket_link %}
+      <h4 class="cooper">Tickets are available <a href="{{ site.data.gyf.ticket_link }}">here.</a></h4>
+      {% endif %}
+      {% endif %}
+      We perform regularly in York throughout the year in various locations. To
+      see where we are next performing, please check out our social media
+      pages.
     </div>
   </div>
 </div>
