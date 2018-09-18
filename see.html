@@ -5,31 +5,6 @@ permalink: /see/
 css: see.css
 ---
 <div class="container">
-  <h3 class="cooper subtitle">In Edinburgh</h3>
-  <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-      Every year, we perform throughout the Edinburgh Fringe, bringing to you a
-      fun night with a plethora of comedy. This year we'll be at <span
-        class="cooper">{{ site.data.fringe.location }}</span> (map below).
-
-    {% if site.data.fringe.ticket_link %}
-    <h4 class="cooper">Tickets are available <a href="{{ site.data.fringe.ticket_link }}">here.</a></h4>
-    {% else %}
-    <h4 class="cooper">Tickets to go on sale soon!</h4>
-    {% endif %}
-
-    </br>
-    </div>
-  </div>
-
-  <div class="row">
-    <div id="google-map" class="col-md-11 col-xs-12">
-      {{ site.data.fringe.map }}
-    </div>
-  </div>
-
-  <br>
-
   <h3 class="cooper subtitle">In York</h3>
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
@@ -47,4 +22,36 @@ css: see.css
       pages.
     </div>
   </div>
+
+  <br>
+
+  <h3 class="cooper subtitle">In Edinburgh</h3>
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      Every year, we perform throughout the Edinburgh Fringe, bringing to you a
+      fun night with a plethora of comedy.
+      {% if site.data.fringe.location %}
+        This year we'll be at <span class="cooper">{{ site.data.fringe.location }}</span> (map below).
+      {% else %}
+        The details of ur fringe show this year have not yet been announced but keep an eye on our
+        social media for the latest news!
+      {% endif %}
+
+    {% if site.data.fringe.ticket_link %}
+    <h4 class="cooper">Tickets are available <a href="{{ site.data.fringe.ticket_link }}">here.</a></h4>
+    {% else %}
+    <h4 class="cooper">Tickets to go on sale soon!</h4>
+    {% endif %}
+
+    </br>
+    </div>
+  </div>
+
+  {% if site.data.fringe.map %}
+  <div class="row">
+    <div id="google-map" class="col-md-11 col-xs-12">
+      {{ site.data.fringe.map }}
+    </div>
+  </div>
+{% endif %}
 </div>

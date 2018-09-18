@@ -19,7 +19,7 @@
   photo: q.png
 
 - name: Zack Sizer
-  left: no
+  left: yes
   photo: zack.png
 
 - name: Andy Blackwell
@@ -27,7 +27,7 @@
   photo: andy.png
 
 - name: Georgina Newman
-  left: no
+  left: yes
   photo: georgina.png
 
 - name: Kieran Cockburn
@@ -37,7 +37,7 @@
   left: yes
 
 - name: Dominic Gould
-  left: no
+  left: yes
 
 - name: Stephen Harper
   left: yes
@@ -49,10 +49,10 @@
   left: yes
 
 - name: Eleanor Mason
-  left: no
+  left: yes
 
 - name: Alex Hiscock
-  left: no
+  left: yes
 
 - name: Ed Williams
   left: yes
@@ -67,13 +67,13 @@
   left: yes
 
 - name: James Haikney
-  left: no
+  left: yes
 
 - name: Charlotte Vinsen
   left: yes
 
 - name: Kate Weedy
-  left: no
+  left: yes
 
 - name: Andy Watts
   left: yes
@@ -85,7 +85,7 @@
   left: yes
 
 - name: Hannah Radley
-  left: no
+  left: yes
 
 - name: Robin Datta
   left: no
