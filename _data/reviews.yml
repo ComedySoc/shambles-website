@@ -1,13 +1,14 @@
 - link: "http://www.nouse.co.uk/2015/08/22/125209/"
-  quote: "an unbeatable evening of comedy"
+  quote: "An unbeatable evening of comedy"
   number_of_stars: 5
   reviewer_name: "Nouse"
 
-- link: "http://www.studentnewspaper.org/the-shambles-put-on-a-fun-show-but-it-isnt-shambolic-enough/"
-  quote: "it's wonderful to see such comfortable performers"
+- link: "http://edfringereview.com/r/WxKeqXYMRym672RKXDx6yg"
+  quote: "Fluid and natural, buoyed by frantic energy"
   number_of_stars: 4
-  reviewer_name: "The Student"
+  reviewer_name: "EdFringe Review"
 
-- link: "http://www.yorkvision.co.uk/scene/review-the-shambles/04/05/2014"
-  quote: "Brimming with vigorous energy and enthusiasm"
-  reviewer_name: "York Vision"
+- link: "https://bingefringe.com/2018/08/10/review-the-shambles/"
+  quote: "A memorable, laugh-an-every-three-seconds experience"
+  number_of_stars: 4
+  reviewer_name: "BingeFringe Mag"
