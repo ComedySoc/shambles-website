@@ -30,8 +30,13 @@
   left: yes
   photo: georgina.png
 
+- name: Robin Datta
+  left: no
+  photo: robin.png
+
 - name: Kieran Cockburn
   left: no
+  photo: kieran.png
 
 - name: Annis Stead
   left: yes
@@ -86,9 +91,6 @@
 
 - name: Hannah Radley
   left: yes
-
-- name: Robin Datta
-  left: no
 
 - name: Daniel South
   left: yes
