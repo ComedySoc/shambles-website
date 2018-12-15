@@ -28,7 +28,7 @@ photographer_website: http://hlhelletson.wixsite.com/portfolio
 # Build settings
 markdown: kramdown
 
-plugins:
+plugins_dir:
   - jekyll-sitemap
 
 prose:

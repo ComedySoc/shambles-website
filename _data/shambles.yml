@@ -38,6 +38,21 @@
   left: no
   photo: kieran.png
 
+- name: Louis Ingle
+  left: no
+
+- name: Joe Hesketh
+  left: no
+
+- name: Ryan Kelly
+  left: no
+
+- name: Geo Craig
+  left: no
+
+- name: Alex Rushfirth
+  left: no
+
 - name: Annis Stead
   left: yes
 
@@ -46,9 +61,6 @@
 
 - name: Stephen Harper
   left: yes
-
-- name: Alex Rushfirth
-  left: no
 
 - name: Matthew Stallworthy
   left: yes
