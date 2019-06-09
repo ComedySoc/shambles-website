@@ -1,5 +1,6 @@
 ﻿- name: Adam Al-Janabi
   left: no
+  photo: adam.jpg
 
 - name: George Blackman
   left: no
@@ -43,21 +44,26 @@
 
 - name: Louis Ingle
   left: no
+  photo: louis.jpg
 
 - name: Joe Hesketh
   left: no
 
 - name: Ryan Kelly
   left: no
+  photo: ryan.jpg
 
 - name: Geo Craig
   left: no
+  photo: geo.jpg
 
 - name: James Harvey
   left: no
+  photo: james.jpg
 
 - name: Sam Jones
   left: no
+  photo: sam.jpg
 
 - name: Alex Rushfirth
   left: no
