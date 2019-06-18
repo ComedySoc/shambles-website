@@ -1,10 +1,10 @@
 ﻿- name: Adam Al-Janabi
   left: no
-  photo: adam.jpg
+  photo: adam.JPG
 
 - name: George Blackman
   left: no
-  photo: george.jpg
+  photo: george.JPG
 
 - name: Claire Geller
   left: no
@@ -12,7 +12,7 @@
 
 - name: Ollie Jones
   left: no
-  photo: ollie.jpg
+  photo: ollie.JPG
 
 - name: Rosalie Gardner
   left: yes
@@ -20,7 +20,7 @@
 
 - name: Qumarth Jash
   left: no
-  photo: q.jpg
+  photo: q.JPG
 
 - name: Zack Sizer
   left: yes
@@ -28,7 +28,7 @@
 
 - name: Andy Blackwell
   left: no
-  photo: andy.jpg
+  photo: andy.JPG
 
 - name: Georgina Newman
   left: yes
@@ -40,30 +40,30 @@
 
 - name: Kieran Cockburn
   left: no
-  photo: kieran.jpg
+  photo: kieran.JPG
 
 - name: Louis Ingle
   left: no
-  photo: louis.jpg
+  photo: louis.JPG
 
 - name: Ryan Kelly
   left: no
-  photo: ryan.jpg
+  photo: ryan.JPG
 
 - name: Geo Craig
   left: no
-  photo: geo.jpg
+  photo: geo.JPG
 
 - name: James Harvey
   left: no
-  photo: james.jpg
+  photo: james.JPG
 
 - name: Joe Hesketh
   left: no
   
 - name: Sam Jones
   left: no
-  photo: sam.jpg
+  photo: sam.JPG
 
 - name: Alex Rushfirth
   left: no
