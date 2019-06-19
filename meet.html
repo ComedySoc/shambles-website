@@ -28,13 +28,6 @@ css: meet.css
       {% if shamble.photo %}
       <img src="{{ site.github.url }}/img/shambles/{{ shamble.photo }}"
       {% assign image_files = site.static_files | where: "image", true %}
-      {% assign silly_file_path = '/img/shambles/silly/' | append: shamble.photo %}
-      {% for image in image_files %}
-        {% if image.path == silly_file_path %}
-           onmouseover="this.src='/img/shambles/silly/{{ shamble.photo }}';"
-           onmouseout="this.src='/img/shambles/{{ shamble.photo }}';"
-        {% endif %}
-      {% endfor %}
            alt="Photo of {{ shamble.name }}"/>
       {% else %}
       <img src="{{ site.github.url }}/img/shambles/unknown.svg"
