@@ -1,54 +1,10 @@
-﻿- name: Adam Al-Janabi
-  left: no
-  photo: adam.JPG
-
-- name: George Blackman
-  left: no
-  photo: george.JPG
-
-- name: Claire Geller
-  left: no
-  photo: claire.JPG
-
-- name: Ollie Jones
-  left: no
-  photo: ollie.JPG
-
-- name: Rosalie Gardner
-  left: yes
-  photo: ros.png
-
-- name: Qumarth Jash
-  left: no
-  photo: q.JPG
-
-- name: Zack Sizer
-  left: yes
-  photo: zack.png
-
-- name: Andy Blackwell
-  left: no
-  photo: andy.JPG
-
-- name: Georgina Newman
-  left: yes
-  photo: georgina.png
-
-- name: Robin Datta
-  left: no
-  photo: robin.JPG
-
-- name: Kieran Cockburn
+﻿- name: Kieran Cockburn
   left: no
   photo: kieran.JPG
 
 - name: Louis Ingle
   left: no
   photo: louis.JPG
-
-- name: Ryan Kelly
-  left: no
-  photo: ryan.JPG
 
 - name: Geo Craig
   left: no
@@ -58,15 +14,69 @@
   left: no
   photo: james.JPG
 
-- name: Joe Hesketh
-  left: no
-
 - name: Sam Jones
   left: no
   photo: sam.JPG
 
-- name: Alex Rushfirth
+- name: Grace Sanders
   left: no
+
+- name: Eleanor Finch
+  left: no
+
+- name: Ryan Vint
+  left: no
+
+- name: Emily Brighty
+  left: no
+
+- name: Maxwell Smales
+  left: no
+
+- name: Harry Cole
+  left: no
+
+- name: Joe Hesketh
+  left: yes
+
+- name: Ryan Kelly
+  left: yes
+
+- name: Alex Rushfirth
+  left: yes
+
+- name: Adam Al-Janabi
+  left: yes
+
+- name: George Blackman
+  left: yes
+
+- name: Claire Geller
+  left: yes
+
+- name: Ollie Jones
+  left: yes
+
+- name: Qumarth Jash
+  left: yes
+
+- name: Andy Blackwell
+  left: yes
+
+- name: Robin Datta
+  left: yes
+
+- name: Zack Sizer
+  left: yes
+  photo: zack.png
+
+- name: Rosalie Gardner
+  left: yes
+  photo: ros.png
+
+- name: Georgina Newman
+  left: yes
+  photo: georgina.png
 
 - name: Annis Stead
   left: yes
