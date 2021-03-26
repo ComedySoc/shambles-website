@@ -1,16 +1,16 @@
-﻿- name: Kieran Cockburn
-  left: no
-  photo: kieran.JPG
-
-- name: Louis Ingle
+﻿- name: Louis Ingle (Co-Director)
   left: no
   photo: louis.JPG
+  
+- name: Ryan Vint (Co-Director)
+  left: no
+  photo: ryan.jpg
 
-- name: Geo Craig
+- name: Geo Craig (Prev. Co-Director)
   left: no
   photo: geo.JPG
 
-- name: James Harvey
+- name: James Harvey 
   left: no
   photo: james.JPG
 
@@ -18,24 +18,17 @@
   left: no
   photo: sam.JPG
 
-- name: Grace Sanders
-  left: no
-
 - name: Eleanor Finch
   left: no
+  photo: eleanor.jpg
 
-- name: Ryan Vint
+- name: Grace Sanders
   left: no
-
-- name: Emily Brighty
-  left: no
-
-- name: Maxwell Smales
-  left: no
-
-- name: Harry Cole
-  left: no
-
+  photo: grace.jpg
+  
+- name: Kieran Cockburn
+  left: yes
+  
 - name: Joe Hesketh
   left: yes
 
